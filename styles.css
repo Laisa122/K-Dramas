@@ -120,14 +120,6 @@ form select {
     .contener-dramas {
         flex-direction: column;
     }
-    
-}
-article img {
-    width: 150px;
-    height: 220px;
-    margin: 0 auto;
-    border-radius: 8px;
-
     nav {
         flex-direction: column;
         gap: 10px;
@@ -138,4 +130,12 @@ article img {
         justify-content: center;
         gap: 10px;
     }
+}
+article img {
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 8px;
+
+    
 }
