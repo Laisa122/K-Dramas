@@ -127,4 +127,15 @@ article img {
     height: 220px;
     margin: 0 auto;
     border-radius: 8px;
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
 }
