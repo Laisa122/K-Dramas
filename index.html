@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi K-Drama</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="imagenes/foto.png">
 </head>
 <body>
     <header>
@@ -23,7 +24,7 @@
         <section id="inicio" class="centro">
             <h2 class="tituloseccion">Encuentra tu próximo K-Drama</h2>
             <p>Descubre historias que se adapten a tus gustos.</p>
-            <button>Ver recomendaciones</button>
+            <button id="btn-recomendar">Ver recomendaciones</button>
         </section>
 
         <section id="recomendaciones" class="centro">
@@ -42,6 +43,8 @@
 
                 <button type="submit">Recomendarme un K-Drama</button>
             </form>
+
+            <p id="resultado"></p>
         </section>
 
         <section id="dramas" class="centro">
@@ -49,24 +52,27 @@
             <p>Explora algunos de nuestros dramas favoritos</p>
             <div class="contener-dramas">
                 <article class="tarjeta">
+                <img src="imagenes/trueB.jpg" alt="Póster de True Beauty">
                 <h3>True Beauty</h3>
                 <p>Romance</p>
                 <p>Una historia de amor, amistad y autoestima.</p>
-                <button>♡ Agregar a favoritos</button>
+                <button class="btn-favorito">♡ Agregar a favoritos</button>
             </article>
 
             <article class="tarjeta">
+                <img src="imagenes/propuestaLa.jpg" alt="Póster de Propuesta Laboral">
                 <h3>Propuesta Laboral</h3>
                 <p>Comedia Romántica</p>
                 <p>Una cita a ciegas que termina siendo mucho más de lo esperado.</p>
-                <button>♡ Agregar a favoritos</button>
+                <button class="btn-favorito">♡ Agregar a favoritos</button>
             </article>
 
             <article class="tarjeta">
+                <img src="imagenes/hotelD.jpg" alt="Póster de Hotel de Luna">
                 <h3>Hotel de Luna</h3>
                 <p>Fantasía y romance</p>
                 <p>Una historia misteriosa sobre un hotel especial y sus huéspedes.</p>
-                <button>♡ Agregar a favoritos</button>
+                <button class="btn-favorito">♡ Agregar a favoritos</button>
             </article>
             </div>
             
