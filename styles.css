@@ -1,0 +1,130 @@
+:root {
+    --color-principal: #8e6bbd;
+    --color-fondo: #fff9fc;
+    --color-texto: #333333;
+    --color-blanco: #ffffff;
+    --color-secundario: #f3eafa;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+nav {
+    background-color: var(--color-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+nav h1 {
+    color: var(--color-blanco);
+    margin: 0;
+}
+
+nav a {
+    color: var(--color-blanco);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+section {
+    padding: 50px 40px;
+}
+
+.centro {
+    text-align: center;
+    
+}
+
+.tituloseccion {
+    color: var(--color-principal);
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#inicio p, #recomendaciones p, #dramas p, #favoritos p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#inicio button, form button, .tarjeta button {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#inicio button:hover, form button:hover, .tarjeta button:hover {
+    background-color: :var(--color-secundario);
+    color: var(--color-principal);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form select {
+    padding: 10px;
+    border: 1px solid var(--color-principal);
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+}   
+
+.contener-dramas {
+    display: flex;
+    gap: 40px;
+    
+}
+.tarjeta {
+    flex: 1;
+    width: 250px;
+    padding: 20px;
+    border: 1px solid var(--color-principal);
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--color-secundario);
+}
+
+.favorito {
+    padding:  10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .contener-dramas {
+        flex-direction: column;
+    }
+    
+}
+article img {
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
